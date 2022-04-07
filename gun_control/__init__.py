@@ -15,7 +15,7 @@ def flick_to_target(keyboard,
                     sleep_time=None):
     y = starting_pos[0] - target[0]
     x = starting_pos[1] - target[1]
-    keyboard.directMouse(-int(x * config.mouse_scale), -int(y * (config.mouse_scale + 0.01)))
+    keyboard.directMouse(-int(x * config.mouse_scale), -int(y * config.mouse_scale))
     if not isinstance(sleep_time, type(None)):
         time.sleep(config.sleep_time + 0.05)
 

@@ -4,6 +4,9 @@ class Config:
 
     starting_sleep = 4
 
+    # coordinates used to capture screen.
+    # This really depends on your setup (one or duplicated screen, game video settings etc...),
+    # you may have to adjust them before running the project
     region_coord = [0, 0, 1400, 600]
 
     # checkpoint before every shot
@@ -23,7 +26,6 @@ class Config:
     target7 = [305, 324, 542, 562]
     target8 = [308, 325, 685, 705]
     target9 = [293, 303, 595, 605]
-
     target10 = [293, 302, 641, 650]
     target11 = [295, 305, 550, 560]
 
